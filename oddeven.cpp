@@ -1,4 +1,3 @@
-
 #include <iostream>
 #include <string.h>
 #include <stdlib.h>
@@ -6,8 +5,7 @@ using namespace std;
 int main()
 {
     int a = 0,b = 0,i = 0, n;
-    char num[100];
-   
+    char num[100]; 
     cin>> num;
     n = strlen(num);
     while(n>0)
@@ -26,7 +24,5 @@ int main()
         }
     }
     cout<< abs(a-b);
-
-
     return 0;
 }

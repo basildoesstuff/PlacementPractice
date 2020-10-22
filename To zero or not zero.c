@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 int main()
-{
+{   
     int up,low;
     cin >> low >> up;
     for(int i=low; i<=up; i++)
